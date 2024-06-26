@@ -14,8 +14,8 @@ https://github.com/Cuunlang/chat-school
    > 1-1. Ngrok 가입및 인증토큰 발급  
    > 1-2. IDE상 터미널 실행 (필자는 conda가상환경에서 실행)  
    > 1-3. Ngrok 설치 및 토큰 입력  
-   >    pip install ngrok  
-   >    ngrok config add-authtoken $YOUR_AUTHTOKEN  
+   pip install ngrok  
+   ngrok config add-authtoken $YOUR_AUTHTOKEN  
    > 1-4. Fowarding url 복사 및 확인  
 2. model에 finetune한 gguf모델 넣기
 3. llama_run_model.py 에서 gguf파일 이름으로 경로지정
