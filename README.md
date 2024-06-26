@@ -17,7 +17,7 @@ https://github.com/Cuunlang/chat-school
    pip install ngrok  
    ngrok config add-authtoken $YOUR_AUTHTOKEN  
    > 1-4. Fowarding url 복사 및 확인  
-2. model에 finetune한 gguf모델 넣기
+2. model에 finetune한 gguf모델 넣기  
 3. llama_run_model.py 에서 gguf파일 이름으로 경로지정
-4. 새 터미널에서 앱 실행
+4. 새 터미널에서 앱 실행  
     python app.py
